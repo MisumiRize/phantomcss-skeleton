@@ -1,0 +1,14 @@
+{
+  "name": "phantomcss-skeleton",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "./node_modules/.bin/casperjs test test/testsuite.js"
+  },
+  "author": "Rize MISUMI",
+  "license": "MIT",
+  "devDependencies": {
+    "casperjs": "^1.1.0-beta3",
+    "phantomcss": "^0.7.2"
+  }
+}
