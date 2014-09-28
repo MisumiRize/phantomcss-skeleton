@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "test": "./node_modules/.bin/casperjs test test/testsuite.js"
+    "test": "./node_modules/.bin/casperjs test --includes=test/bootstrap.js test/*.test.js"
   },
   "author": "Rize MISUMI",
   "license": "MIT",
